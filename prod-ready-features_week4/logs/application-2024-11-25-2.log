@@ -1,0 +1,385 @@
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cbrt)] under cbrt; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(pi)] under pi; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@2842ef02
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ltrim)] under ltrim; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rtrim)] under rtrim; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(repeat)] under repeat; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(md5)] under md5; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(initcap)] under initcap; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substr)] under substr; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substr)] under substring; prior registration was NamedSqmFunctionTemplate(substring)
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(translate)] under translate; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(to_number)] under to_number; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(to_char)] under to_char; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(to_date)] under to_date; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(to_timestamp)] under to_timestamp; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ConcatPipeFunction@4aea57dc] under concat; prior registration was NamedSqmFunctionTemplate(concat)
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under localtime; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under localtimestamp; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under local_time; prior registration was org.hibernate.dialect.function.CurrentFunction@2dbb8da0
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under local_datetime; prior registration was org.hibernate.dialect.function.CurrentFunction@3130ca39
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LengthFunction@49338f3] under character_length; prior registration was NamedSqmFunctionTemplate(character_length)
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : length -> character_length
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LengthFunction@3c9971af] under bit_length; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LengthFunction@4abdd5e] under octet_length; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ascii)] under ascii; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(chr)] under chr; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : char -> chr
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@66d61298] under position; prior registration was org.hibernate.dialect.function.LocatePositionEmulation@691eb389
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@7b9fea11] under bitand; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@c7cf8c4] under bitor; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@56e78538] under bitxor; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@731fae] under bitnot; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_and)] under bit_and; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_or)] under bit_or; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bool_and)] under bool_and; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : every -> bool_and
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bool_or)] under bool_or; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : any -> bool_or
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@438a2d3] under median; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev)] under stddev; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_pop)] under stddev_pop; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_samp)] under stddev_samp; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(variance)] under variance; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_pop)] under var_pop; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_samp)] under var_samp; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(covar_pop)] under covar_pop; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(covar_samp)] under covar_samp; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(corr)] under corr; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_avgx)] under regr_avgx; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_avgy)] under regr_avgy; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_count)] under regr_count; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_intercept)] under regr_intercept; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_r2)] under regr_r2; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_slope)] under regr_slope; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_sxx)] under regr_sxx; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_sxy)] under regr_sxy; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_syy)] under regr_syy; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@54d46c8] under insert; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@12eaa2cd] under overlay; prior registration was org.hibernate.dialect.function.InsertSubstringOverlayEmulation@6c2f8ecb
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(soundex)] under soundex; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@52ccf197] under locate; prior registration was NamedSqmFunctionTemplate(locate)
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(row_number)] under row_number; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lag)] under lag; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lead)] under lead; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(first_value)] under first_value; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_value)] under last_value; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nth_value)] under nth_value; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ListaggStringAggEmulation@54530644] under listagg; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayConstructorFunction@789d8fd6] under array; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayConstructorFunction@42fa5cb] under array_list; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayAggFunction@296bfddb] under array_agg; prior registration was null
+2024-11-25 19:26:05 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13a8f331
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayPositionFunction@5dfec221] under array_position; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayPositionsFunction@73db7df0] under array_positions; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayPositionsFunction@2bda7a5b] under array_positions_list; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@47374fa5] under array_length; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayConcatFunction@79349b61] under array_concat; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayConcatElementFunction@54033a65] under array_prepend; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayConcatElementFunction@4fb99927] under array_append; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayContainsOperatorFunction@3f3f554f] under array_contains; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayContainsOperatorFunction@3186f8f5] under array_contains_nullable; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayOverlapsOperatorFunction@5bb3dee7] under array_overlaps; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayOverlapsOperatorFunction@284f25e6] under array_overlaps_nullable; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@20d3fff4] under array_get; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArraySetUnnestFunction@65f470f8] under array_set; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(array_remove)] under array_remove; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayRemoveIndexUnnestFunction@3117ac8d] under array_remove_index; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@760c777d] under array_slice; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(array_replace)] under array_replace; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@7ea039b4] under array_trim; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayFillFunction@7cdb05aa] under array_fill; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayFillFunction@2079fcfc] under array_fill_list; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayToStringFunction@3346e906] under array_to_string; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(make_date)] under make_date; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(make_time)] under make_time; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(make_timestamp)] under make_timestamp; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(make_timestamptz)] under make_timestamptz; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InverseDistributionFunction@19e5e110] under mode; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InverseDistributionFunction@1e295f7f] under percentile_cont; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InverseDistributionFunction@4b762988] under percentile_disc; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetFunction@3c6fc4cd] under rank; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetFunction@b2e1df3] under dense_rank; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetFunction@56193e3a] under percent_rank; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetFunction@6cf3b3d7] under cume_dist; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.PostgreSQLMinMaxFunction@3ba96967] under min; prior registration was NamedSqmFunctionTemplate(min)
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.PostgreSQLMinMaxFunction@5764d421] under max; prior registration was NamedSqmFunctionTemplate(max)
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@1237cade] under bitxor; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@56e78538
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.PostgreSQLTruncRoundFunction@5dbc4598] under round; prior registration was NamedSqmFunctionTemplate(round)
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.PostgreSQLTruncFunction@c0521e5] under trunc; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : truncate -> trunc
+2024-11-25 19:26:05 [main] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@2e20c20b] under date_trunc; prior registration was null
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - _order_by_frag(arg0, arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - abs(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double acos(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double acosh(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean any(BOOLEAN predicate)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_agg(arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_append( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_concat( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean array_contains(ARRAY haystackArray, OBJECT needleElementOrArray)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean array_contains_nullable(ARRAY haystackArray, OBJECT needleElementOrArray)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_fill(OBJECT element, INTEGER elementCount)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_fill_list(OBJECT element, INTEGER elementCount)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_get(ARRAY array, INTEGER index)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer array_length(ARRAY array)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_list( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean array_overlaps(ARRAY array0, OBJECT array1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean array_overlaps_nullable(ARRAY array0, OBJECT array1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer array_position(ARRAY array, OBJECT element[, INTEGER startPosition])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - int[] array_positions(ARRAY array, OBJECT element)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - List array_positions_list(ARRAY array, OBJECT element)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_prepend( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_remove( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_remove_index( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_replace(ARRAY array, OBJECT old, OBJECT new)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_set( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_slice(ARRAY array, INTEGER start, INTEGER end)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String array_to_string( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - array_trim(ARRAY array, INTEGER elementsToRemove)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer ascii(STRING arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double asin(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double asinh(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double atan(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double atan2(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double atanh(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - avg(arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bit_and(arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer bit_length(STRING_OR_CLOB arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bit_or(arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bitand(arg0, arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bitnot(arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bitor(arg0, arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bitxor(arg0, arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean bool_and(BOOLEAN predicate)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean bool_or(BOOLEAN predicate)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - cast(arg as Type)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double cbrt(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - ceiling(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Character char(INTEGER arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer character_length(STRING_OR_CLOB arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Character chr(INTEGER arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - coalesce(arg0[, arg1[, ...]])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String collate(STRING string as COLLATION collation)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - (STRING string0[, STRING string1[, ...]])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double corr(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double cos(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double cosh(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double cot(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long count([distinct ]{arg|*})
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double covar_pop(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double covar_samp(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double cume_dist([arg0[, ...]])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date current date
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time current time
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp current timestamp
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date current_date
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Instant current_instant
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time current_time
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp current_timestamp
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - date_trunc(STRING field, TEMPORAL datetime)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - dateadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long|Double datediff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double degrees(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long dense_rank([arg0[, ...]])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean every(BOOLEAN predicate)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double exp(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - extract(TEMPORAL_UNIT field from TEMPORAL arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - first_valueANY value
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - floor(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String format(TEMPORAL datetime as STRING pattern)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - greatest(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - ifnull(arg0, arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String initcap(arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String insert(STRING string, INTEGER start, INTEGER length, STRING replacement)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Instant instant
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - lagANY value[, INTEGER offset[, ANY default]]
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - last_valueANY value
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - leadANY value[, INTEGER offset[, ANY default]]
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - least(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String left(STRING string, INTEGER length)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer length(STRING_OR_CLOB arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String listagg(STRING arg0, STRING arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double ln(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDate local date
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDateTime local datetime
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalTime local time
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDate local_date
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDateTime local_datetime
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalTime local_time
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time localtime
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp localtimestamp
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer locate(STRING pattern, STRING string[, INTEGER start])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double log(NUMERIC arg0[, NUMERIC arg1])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double log10(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String lower(STRING string)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String lpad(STRING string, INTEGER length[, STRING padding])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String ltrim(STRING string[, STRING characters])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date make_date(INTEGER arg0, INTEGER arg1, INTEGER arg2)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time make_time(INTEGER arg0, INTEGER arg1, INTEGER arg2)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp make_timestamp(INTEGER arg0, INTEGER arg1, INTEGER arg2, INTEGER arg3, INTEGER arg4, INTEGER arg5)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp make_timestamptz(INTEGER arg0, INTEGER arg1, INTEGER arg2, INTEGER arg3, INTEGER arg4, INTEGER arg5[, INTEGER arg6])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - max(COMPARABLE arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String md5(arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double median(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - min(COMPARABLE arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer mod(INTEGER arg0, INTEGER arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - mode()
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - nth_valueANY value, INTEGER nth
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - nullif(arg0, arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer octet_length(STRING_OR_CLOB arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - OffsetDateTime offset datetime
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - OffsetDateTime offset_datetime
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String overlay(string placing replacement from start[ for length])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String pad(STRING string with INTEGER length {leading|trailing}[ STRING character])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double percent_rank([arg0[, ...]])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - percentile_cont(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - percentile_disc(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double pi
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer position(STRING pattern in STRING string)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double power(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double radians(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long rank([arg0[, ...]])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double regr_avgx(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double regr_avgy(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double regr_count(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double regr_intercept(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double regr_r2(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double regr_slope(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double regr_sxx(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double regr_sxy(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double regr_syy(NUMERIC arg0, NUMERIC arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String repeat(STRING string, INTEGER times)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String replace(STRING string, STRING pattern, STRING replacement)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String right(STRING string, INTEGER length)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - round(NUMERIC number[, INTEGER places])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long row_number()
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String rpad(STRING string, INTEGER length[, STRING padding])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String rtrim(STRING string[, STRING characters])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer sign(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double sin(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double sinh(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String soundex(arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Object sql
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double sqrt(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double stddev(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double stddev_pop(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double stddev_samp(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String str(arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String substr(STRING string, INTEGER start[, INTEGER length])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String substring(STRING string{ from|,} INTEGER start[{ for|,} INTEGER length])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - sum(arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double tan(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double tanh(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - timestampadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long|Double timestampdiff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String to_char(ANY arg0[, STRING arg1, STRING arg2])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date to_date(STRING arg0[, STRING arg1, STRING arg2])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double to_number(STRING arg0[, STRING arg1, STRING arg2])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp to_timestamp(STRING arg0[, STRING arg1, STRING arg2])
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String translate(STRING arg0, STRING arg1, STRING arg2)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String trim([[{leading|trailing|both} ][STRING arg0 ]from] STRING arg1)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - trunc( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - truncate( ... )
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String upper(STRING string)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double var_pop(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double var_samp(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double variance(NUMERIC arg)
+2024-11-25 19:26:05 [main] DEBUG org.hibernate.orm.query.plan.cache - Starting QueryInterpretationCache(2048)
+2024-11-25 19:26:05 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-11-25 19:26:05 [main] DEBUG o.h.s.i.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2024-11-25 19:26:05 [main] DEBUG o.h.e.i.EntityCopyObserverFactoryInitiator - Configured EntityCopyObserver strategy: disallow
+2024-11-25 19:26:05 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity] is safe
+2024-11-25 19:26:05 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity
+2024-11-25 19:26:06 [main] DEBUG o.h.b.i.b.BytecodeProviderImpl - HHH000513: Unable to create the ReflectionOptimizer for [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity]: private accessor [createdAt]
+2024-11-25 19:26:06 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56aa7f20
+2024-11-25 19:26:06 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-11-25 19:26:06 [main] DEBUG o.h.orm.model.mapping.creation - Starting post-init callbacks
+2024-11-25 19:26:06 [main] DEBUG o.h.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity) `staticFetchableList` generator
+2024-11-25 19:26:06 [main] DEBUG o.h.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(org.hibernate.envers.DefaultRevisionEntity) `staticFetchableList` generator
+2024-11-25 19:26:06 [main] DEBUG o.h.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(org.hibernate.envers.DefaultRevisionEntity) `sqmMultiTableInsertStrategy` interpretation
+2024-11-25 19:26:06 [main] DEBUG o.h.orm.model.mapping.creation - Starting PostInitCallbackEntry : EmbeddableMappingType(com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD#{id})#finishInitialization
+2024-11-25 19:26:06 [main] DEBUG o.h.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD) `staticFetchableList` generator
+2024-11-25 19:26:06 [main] DEBUG o.h.orm.model.mapping.creation - Starting PostInitCallbackEntry : To-one key - NavigableRole[com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD#{id}.REV]
+2024-11-25 19:26:06 [main] DEBUG o.h.orm.model.mapping.creation - Starting PostInitCallbackEntry : EmbeddableMappingType(com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD#{id})#initColumnMappings
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : pe1_0
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity)] with identifierForTableGroup [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity] for NavigablePath [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity] 
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity]
+ |  +-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity.createdAt]
+ |  +-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity.createdBy]
+ |  +-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity.description]
+ |  +-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity.modifiedBy]
+ |  +-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity.title]
+ |  \-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity.updatedAt]
+
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (pe1 : com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity) {
+          primaryTableReference : posts as pe1_0
+        }
+      }
+    }
+
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select id from posts where id=?
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert (0): insert into posts (created_at,created_by,description,modified_by,title,updated_at) values (?,?,?,?,?,?) returning id
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Update (0): update posts set created_by=?,description=?,modified_by=?,title=?,updated_at=? where id=?
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete (0): delete from posts where id=?
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : dre1_0
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(org.hibernate.envers.DefaultRevisionEntity)] with identifierForTableGroup [org.hibernate.envers.DefaultRevisionEntity] for NavigablePath [org.hibernate.envers.DefaultRevisionEntity] 
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [org.hibernate.envers.DefaultRevisionEntity]
+ |  \-BasicFetch [org.hibernate.envers.DefaultRevisionEntity.timestamp]
+
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (dre1 : org.hibernate.envers.DefaultRevisionEntity) {
+          primaryTableReference : revinfo as dre1_0
+        }
+      }
+    }
+
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: org.hibernate.envers.DefaultRevisionEntity
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select rev from revinfo where rev=?
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert (0): insert into revinfo (revtstmp,rev) values (?,?)
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete (0): delete from revinfo where rev=?
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : pea1_0
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD)] with identifierForTableGroup [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD] for NavigablePath [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD] 
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardVirtualTableGroup(com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.{id})] with identifierForTableGroup [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.{id}] for NavigablePath [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.{id}] 
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@242c4a94] with identifierForTableGroup [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.{id}.REV] for NavigablePath [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.{id}.REV] 
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD]
+ |  +-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.REVTYPE]
+ |  +-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.createdAt]
+ |  +-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.createdBy]
+ |  +-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.modifiedBy]
+ |  +-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.title]
+ |  \-BasicFetch [com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.updatedAt]
+
+2024-11-25 19:26:06 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (pea1 : com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD) {
+          primaryTableReference : posts_aud as pea1_0
+          TableGroupJoins {
+             join StandardVirtualTableGroup (null : com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.{id}) {
+              primaryTableReference : posts_aud as pea1_0
+              TableGroupJoins {
+                left  join LazyTableGroup (r1 : com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD.{id}.REV) {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity_AUD
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select rev, id from posts_aud where rev=? and id=?
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert (0): insert into posts_aud (revtype,created_at,created_by,modified_by,title,updated_at,rev,id) values (?,?,?,?,?,?,?,?)
+2024-11-25 19:26:06 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete (0): delete from posts_aud where rev=? and id=?
+2024-11-25 19:26:06 [main] ERROR o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2024-11-25 19:26:06 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)

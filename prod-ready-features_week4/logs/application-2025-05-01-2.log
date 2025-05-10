@@ -1,0 +1,301 @@
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.EveryAnyEmulation@7cc222dc] under any; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(floor)] under floor; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ceiling)] under ceiling; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(mod)] under mod; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(abs)] under abs; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sign)] under sign; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sqrt)] under sqrt; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ln)] under ln; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(exp)] under exp; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(power)] under power; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(round)] under round; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sin)] under sin; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cos)] under cos; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(tan)] under tan; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(asin)] under asin; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(acos)] under acos; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atan)] under atan; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atan2)] under atan2; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@7d89bab5] under sinh; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@5be9070] under cosh; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@779c3a3c] under tanh; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@1d19d01] under pi; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@31bdd39c] under log; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(coalesce)] under coalesce; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nullif)] under nullif; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(left)] under left; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(right)] under right; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(replace)] under replace; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(concat)] under concat; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lower)] under lower; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(upper)] under upper; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substring)] under substring; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(locate)] under locate; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(character_length)] under character_length; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : length -> character_length
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LocatePositionEmulation@579cc17b] under position; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InsertSubstringOverlayEmulation@519dfd79] under overlay; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TrimFunction@4ce1d3af] under trim; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastFunction@342e68bf] under cast; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@435e2482] under collate; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ExtractFunction@41e56263] under extract; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(least)] under least; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(greatest)] under greatest; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CoalesceIfnullEmulation@126c0f4] under ifnull; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lpad)] under lpad; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rpad)] under rpad; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LpadRpadPadEmulation@2be6013d] under pad; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastStrEmulation@2c129efe] under str; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.FormatFunction@36200f9d] under format; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampaddFunction@3e2e0079] under timestampadd; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampdiffFunction@26a029a3] under timestampdiff; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : dateadd -> timestampadd
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : datediff -> timestampdiff
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@6d4e765c] under current_date; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@281257df] under current_time; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@7ff5790d] under current_timestamp; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : current date -> current_date
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : current time -> current_time
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : current timestamp -> current_timestamp
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@10022d2e] under local_date; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@e6055e4] under local_time; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@34765758] under local_datetime; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@609f6dca] under offset_datetime; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : local date -> local_date
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : local time -> local_time
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : local datetime -> local_datetime
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : offset datetime -> offset_datetime
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@617557aa] under instant; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : current_instant -> instant
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.SqlFunction@3b95a75b] under sql; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cot)] under cot; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(radians)] under radians; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(degrees)] under degrees; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log)] under log; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@31bdd39c
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@61f1c765] under mod; prior registration was NamedSqmFunctionTemplate(mod)
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log10)] under log10; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(tanh)] under tanh; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@779c3a3c
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sinh)] under sinh; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@7d89bab5
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cosh)] under cosh; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@5be9070
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(acosh)] under acosh; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(asinh)] under asinh; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atanh)] under atanh; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cbrt)] under cbrt; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(pi)] under pi; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@1d19d01
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ltrim)] under ltrim; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rtrim)] under rtrim; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(repeat)] under repeat; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(md5)] under md5; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(initcap)] under initcap; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substr)] under substr; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substr)] under substring; prior registration was NamedSqmFunctionTemplate(substring)
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(translate)] under translate; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(to_number)] under to_number; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(to_char)] under to_char; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(to_date)] under to_date; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(to_timestamp)] under to_timestamp; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ConcatPipeFunction@55c6d65c] under concat; prior registration was NamedSqmFunctionTemplate(concat)
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under localtime; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under localtimestamp; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under local_time; prior registration was org.hibernate.dialect.function.CurrentFunction@e6055e4
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under local_datetime; prior registration was org.hibernate.dialect.function.CurrentFunction@34765758
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LengthFunction@4753900a] under character_length; prior registration was NamedSqmFunctionTemplate(character_length)
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : length -> character_length
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LengthFunction@7c668e37] under bit_length; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LengthFunction@4c5fbd7c] under octet_length; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ascii)] under ascii; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(chr)] under chr; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : char -> chr
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@4e2ec119] under position; prior registration was org.hibernate.dialect.function.LocatePositionEmulation@579cc17b
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@15a6cb16] under bitand; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@5d79f8a3] under bitor; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@6cfc1a2d] under bitxor; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@546238a2] under bitnot; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_and)] under bit_and; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_or)] under bit_or; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bool_and)] under bool_and; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : every -> bool_and
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bool_or)] under bool_or; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : any -> bool_or
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@773fa743] under median; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev)] under stddev; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_pop)] under stddev_pop; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_samp)] under stddev_samp; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(variance)] under variance; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_pop)] under var_pop; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_samp)] under var_samp; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(covar_pop)] under covar_pop; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(covar_samp)] under covar_samp; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(corr)] under corr; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_avgx)] under regr_avgx; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_avgy)] under regr_avgy; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_count)] under regr_count; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_intercept)] under regr_intercept; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_r2)] under regr_r2; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_slope)] under regr_slope; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_sxx)] under regr_sxx; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_sxy)] under regr_sxy; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(regr_syy)] under regr_syy; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@69b0b61a] under insert; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@206583cc] under overlay; prior registration was org.hibernate.dialect.function.InsertSubstringOverlayEmulation@519dfd79
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(soundex)] under soundex; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@1d2fe462] under locate; prior registration was NamedSqmFunctionTemplate(locate)
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(row_number)] under row_number; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lag)] under lag; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lead)] under lead; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(first_value)] under first_value; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_value)] under last_value; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nth_value)] under nth_value; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ListaggStringAggEmulation@6abc8df0] under listagg; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayConstructorFunction@135148a1] under array; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayConstructorFunction@686af266] under array_list; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayAggFunction@7a84ec5c] under array_agg; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayPositionFunction@73a4bf64] under array_position; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayPositionsFunction@4d45a76e] under array_positions; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayPositionsFunction@2696bfa3] under array_positions_list; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@61b7c72a] under array_length; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayConcatFunction@4dfc7c13] under array_concat; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayConcatElementFunction@fa8ddc5] under array_prepend; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayConcatElementFunction@1abc1f7a] under array_append; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayContainsOperatorFunction@445a5d67] under array_contains; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayContainsOperatorFunction@394b7d29] under array_contains_nullable; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayOverlapsOperatorFunction@658353fe] under array_overlaps; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayOverlapsOperatorFunction@5bb31eb4] under array_overlaps_nullable; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@36d7d976] under array_get; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArraySetUnnestFunction@2b0c1802] under array_set; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(array_remove)] under array_remove; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayRemoveIndexUnnestFunction@3bb3c3c] under array_remove_index; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@27809193] under array_slice; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(array_replace)] under array_replace; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@48eb2656] under array_trim; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayFillFunction@6d204607] under array_fill; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.PostgreSQLArrayFillFunction@642c080a] under array_fill_list; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.array.ArrayToStringFunction@17db62e6] under array_to_string; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(make_date)] under make_date; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(make_time)] under make_time; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(make_timestamp)] under make_timestamp; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(make_timestamptz)] under make_timestamptz; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InverseDistributionFunction@143b01d0] under mode; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InverseDistributionFunction@4cb79ce8] under percentile_cont; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InverseDistributionFunction@5c05ca22] under percentile_disc; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetFunction@2a95b6a] under rank; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetFunction@79d7fce4] under dense_rank; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetFunction@33fb63b] under percent_rank; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetFunction@d62b60c] under cume_dist; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.PostgreSQLMinMaxFunction@6594c103] under min; prior registration was NamedSqmFunctionTemplate(min)
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.PostgreSQLMinMaxFunction@663935a6] under max; prior registration was NamedSqmFunctionTemplate(max)
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@14377f09] under bitxor; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@6cfc1a2d
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.PostgreSQLTruncRoundFunction@5c359071] under round; prior registration was NamedSqmFunctionTemplate(round)
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.PostgreSQLTruncFunction@b17cf3c] under trunc; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registering alternate key : truncate -> trunc
+2025-05-01 22:36:25 [restartedMain] DEBUG o.h.q.s.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@5d7db95] under date_trunc; prior registration was null
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - _order_by_frag(arg0, arg1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - abs(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double acos(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double acosh(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean any(BOOLEAN predicate)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array( ... )
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_agg(arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_append( ... )
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_concat( ... )
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean array_contains(ARRAY haystackArray, OBJECT needleElementOrArray)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean array_contains_nullable(ARRAY haystackArray, OBJECT needleElementOrArray)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_fill(OBJECT element, INTEGER elementCount)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_fill_list(OBJECT element, INTEGER elementCount)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_get(ARRAY array, INTEGER index)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Integer array_length(ARRAY array)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_list( ... )
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean array_overlaps(ARRAY array0, OBJECT array1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean array_overlaps_nullable(ARRAY array0, OBJECT array1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Integer array_position(ARRAY array, OBJECT element[, INTEGER startPosition])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - int[] array_positions(ARRAY array, OBJECT element)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - List array_positions_list(ARRAY array, OBJECT element)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_prepend( ... )
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_remove( ... )
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_remove_index( ... )
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_replace(ARRAY array, OBJECT old, OBJECT new)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_set( ... )
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_slice(ARRAY array, INTEGER start, INTEGER end)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - String array_to_string( ... )
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - array_trim(ARRAY array, INTEGER elementsToRemove)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Integer ascii(STRING arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double asin(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double asinh(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double atan(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double atan2(NUMERIC arg0, NUMERIC arg1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double atanh(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - avg(arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - bit_and(arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Integer bit_length(STRING_OR_CLOB arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - bit_or(arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - bitand(arg0, arg1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - bitnot(arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - bitor(arg0, arg1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - bitxor(arg0, arg1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean bool_and(BOOLEAN predicate)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean bool_or(BOOLEAN predicate)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - cast(arg as Type)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double cbrt(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - ceiling(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Character char(INTEGER arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Integer character_length(STRING_OR_CLOB arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Character chr(INTEGER arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - coalesce(arg0[, arg1[, ...]])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - String collate(STRING string as COLLATION collation)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - (STRING string0[, STRING string1[, ...]])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double corr(NUMERIC arg0, NUMERIC arg1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double cos(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double cosh(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double cot(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Long count([distinct ]{arg|*})
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double covar_pop(NUMERIC arg0, NUMERIC arg1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double covar_samp(NUMERIC arg0, NUMERIC arg1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double cume_dist([arg0[, ...]])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Date current date
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Time current time
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp current timestamp
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Date current_date
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Instant current_instant
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Time current_time
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp current_timestamp
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - date_trunc(STRING field, TEMPORAL datetime)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - dateadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Long|Double datediff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double degrees(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Long dense_rank([arg0[, ...]])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean every(BOOLEAN predicate)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double exp(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - extract(TEMPORAL_UNIT field from TEMPORAL arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - first_valueANY value
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - floor(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - String format(TEMPORAL datetime as STRING pattern)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - greatest(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - ifnull(arg0, arg1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - String initcap(arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - String insert(STRING string, INTEGER start, INTEGER length, STRING replacement)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Instant instant
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - lagANY value[, INTEGER offset[, ANY default]]
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - last_valueANY value
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - leadANY value[, INTEGER offset[, ANY default]]
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - least(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - String left(STRING string, INTEGER length)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Integer length(STRING_OR_CLOB arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - String listagg(STRING arg0, STRING arg1)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double ln(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDate local date
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDateTime local datetime
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - LocalTime local time
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDate local_date
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDateTime local_datetime
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - LocalTime local_time
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Time localtime
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp localtimestamp
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Integer locate(STRING pattern, STRING string[, INTEGER start])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double log(NUMERIC arg0[, NUMERIC arg1])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Double log10(NUMERIC arg)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - String lower(STRING string)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - String lpad(STRING string, INTEGER length[, STRING padding])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - String ltrim(STRING string[, STRING characters])
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Date make_date(INTEGER arg0, INTEGER arg1, INTEGER arg2)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Time make_time(INTEGER arg0, INTEGER arg1, INTEGER arg2)
+2025-05-01 22:36:25 [restartedMain] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp make_timestamp(INTEGER arg0, INTEGER arg1, INTEGER arg2, INTEGER arg3, INTEGER arg4, INTEGER arg5)

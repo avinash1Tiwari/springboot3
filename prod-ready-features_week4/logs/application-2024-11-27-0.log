@@ -1,0 +1,326 @@
+2024-11-27 23:23:52 [main] INFO  c.a.p.p.ProdReadyFeaturesApplicationTests - Starting ProdReadyFeaturesApplicationTests using Java 22.0.2 with PID 15424 (started by HP in D:\function\springboot2\prod-ready-features_week4)
+2024-11-27 23:23:52 [main] DEBUG c.a.p.p.ProdReadyFeaturesApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-27 23:23:52 [main] INFO  c.a.p.p.ProdReadyFeaturesApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 23:23:52 [main] DEBUG o.s.boot.SpringApplication - Loading source class com.avinash.prod_ready_features.prod_ready_features.ProdReadyFeaturesApplication
+2024-11-27 23:23:52 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36a7abe1
+2024-11-27 23:23:52 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-11-27 23:23:52 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2024-11-27 23:23:52 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\advices\GlobalExceptionHandler.class]
+2024-11-27 23:23:52 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\advices\GlobalResponseHandler.class]
+2024-11-27 23:23:53 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\client\Implementation\EmployeeClientEmpl.class]
+2024-11-27 23:23:53 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\config\AppConfig.class]
+2024-11-27 23:23:53 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\config\RestClientConfig.class]
+2024-11-27 23:23:53 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\controllers\AuditorController.class]
+2024-11-27 23:23:53 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\controllers\PostControllers.class]
+2024-11-27 23:23:53 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\repositories\PostRepositories.class]
+2024-11-27 23:23:53 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\services\PostServiceImplementation.class]
+2024-11-27 23:23:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.a.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'com.avinash.prod_ready_features.prod_ready_features'. Automatic @Repository and @Entity scanning is enabled.
+2024-11-27 23:23:54 [main] DEBUG o.s.d.r.c.RepositoryConfigurationDelegate - Scanning for JPA repositories in packages com.avinash.prod_ready_features.prod_ready_features.
+2024-11-27 23:23:54 [main] DEBUG o.s.d.r.c.RepositoryComponentProvider - Identified candidate component class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\repositories\PostRepositories.class]
+2024-11-27 23:23:54 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\function\springboot2\prod-ready-features_week4\target\classes\com\avinash\prod_ready_features\prod_ready_features\auth\AuditorAwareImpl.class]
+2024-11-27 23:23:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interface.
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcConnectionDetailsHikariBeanPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2024-11-27 23:23:54 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2024-11-27 23:23:55 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect.ajc$before$org_springframework_beans_factory_aspectj_AbstractDependencyInjectionAspect$1$e854fa65(java.lang.Object)
+2024-11-27 23:23:55 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect.ajc$afterReturning$org_springframework_beans_factory_aspectj_AbstractDependencyInjectionAspect$2$1ea6722c(java.lang.Object)
+2024-11-27 23:23:55 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect.ajc$afterReturning$org_springframework_beans_factory_aspectj_AbstractDependencyInjectionAspect$3$6aa27052(java.lang.Object)
+2024-11-27 23:23:55 [main] DEBUG o.s.a.a.AspectJExpressionPointcut - Pointcut parser rejected expression [(beanConstruction(bean) && (preConstructionCondition() && inConfigurableBean()))]: java.lang.IllegalArgumentException: error Type referred to is not an annotation type: Configurable
+2024-11-27 23:23:55 [main] DEBUG o.s.a.a.AspectJExpressionPointcut - Pointcut parser rejected expression [(beanConstruction(bean) && (postConstructionCondition() && inConfigurableBean()))]: java.lang.IllegalArgumentException: error Type referred to is not an annotation type: Configurable
+2024-11-27 23:23:55 [main] DEBUG o.s.a.a.AspectJExpressionPointcut - Pointcut parser rejected expression [(beanDeserialization(bean) && inConfigurableBean())]: java.lang.IllegalArgumentException: error Type referred to is not an annotation type: Configurable
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2024-11-27 23:23:55 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@ee8e7ff]
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.config.internalBeanConfigurerAspect'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'entityManagerFactory'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcConnectionDetails'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcConnectionDetails' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'dataSource' via factory method to bean named 'jdbcConnectionDetails'
+2024-11-27 23:23:55 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@5b5c0057'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jpaVendorAdapter'
+2024-11-27 23:23:55 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceManagedTypes'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'persistenceManagedTypes' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@5b5c0057'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'persistenceManagedTypes' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@36a7abe1'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+2024-11-27 23:23:55 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'persistenceManagedTypes'
+2024-11-27 23:23:55 [main] DEBUG o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2024-11-27 23:23:55 [main] DEBUG o.h.jpa.internal.util.LogHelper - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/D:/function/springboot2/prod-ready-features_week4/target/test-classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.avinash.prod_ready_features.prod_ready_features.entities.AuditableEntity
+		com.avinash.prod_ready_features.prod_ready_features.entities.PostEntity]
+	Mapping files names []
+	Properties []
+2024-11-27 23:23:55 [main] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.boot.beanvalidation.BeanValidationIntegrator].
+2024-11-27 23:23:55 [main] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2024-11-27 23:23:55 [main] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.envers.boot.internal.EnversIntegrator].
+2024-11-27 23:23:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.cfg.Environment - HHH000206: 'hibernate.properties' not found
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2024-11-27 23:23:55 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2024-11-27 23:23:55 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2024-11-27 23:23:55 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@4b3a01d8
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@4b3a01d8
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@4b3a01d8
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@19fbc594
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@19fbc594
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.BasicTypeReference@2f4d32bf
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@2f4d32bf
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@774d8276
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@774d8276
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.BasicTypeReference@6ce26986
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.BasicTypeReference@6ce26986
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@6ce26986
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BasicTypeReference@2bf2d6eb
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@2bf2d6eb
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BasicTypeReference@2bf2d6eb
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@6d6cd1e0
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@6d6cd1e0
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.BasicTypeReference@76a9a009
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BasicTypeReference@9785903
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@9785903
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@34009349
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@3f68a7f8
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.BasicTypeReference@4faf1f4
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.BasicTypeReference@4faf1f4
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@4faf1f4
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.BasicTypeReference@4f811029
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.BasicTypeReference@4f811029
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@4f811029
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.BasicTypeReference@7f2b584b
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.BasicTypeReference@7f2b584b
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@7f2b584b
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.BasicTypeReference@5866731
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.BasicTypeReference@5866731
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@5866731
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.BasicTypeReference@56a05324
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.BasicTypeReference@56a05324
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@56a05324
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@11e71181
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@11e71181
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@342beaf6
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@342beaf6
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.BasicTypeReference@222acad
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.BasicTypeReference@222acad
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@222acad
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@56cfe6be
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.BasicTypeReference@7f0d8eff
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@7f0d8eff
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.BasicTypeReference@149aa7b2
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.BasicTypeReference@3ca3648
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.BasicTypeReference@3ca3648
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.BasicTypeReference@3ca3648
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@2a99ca99
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.BasicTypeReference@39f0c343
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.BasicTypeReference@781654f8
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.BasicTypeReference@2abc55c4
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@2abc55c4
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.BasicTypeReference@4e958f08
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@4e958f08
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@71c0b742
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@3bbb8c16
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@73e1ecd0
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@11eec06b
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@65600fb3
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@25ce435
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.BasicTypeReference@7ea71fc2
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@7ea71fc2
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@19ad75e5
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@19ad75e5
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@7cd5fcf4
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@7cd5fcf4
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@19cdc217
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@19cdc217
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@5f5297e3
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@5f5297e3
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@2d22d3b1
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@7ec3a8bd
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@9690008
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@9690008
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@42cf6349
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@79cb8ffa
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@1a2e563e
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@5b066c33
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@5b066c33
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@62ea8931
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@47fb7ec9
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.BasicTypeReference@2f8c4fae
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@2f8c4fae
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.BasicTypeReference@4703c998
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@4703c998
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@71166348
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@71166348
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@71166348
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.BasicTypeReference@6d874695
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@6d874695
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@6d874695
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@20bb85b4
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@79add732
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration instant -> org.hibernate.type.BasicTypeReference@3be3e76c
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@3be3e76c
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid -> org.hibernate.type.BasicTypeReference@6c07ad6b
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@6c07ad6b
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@6c07ad6b
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@10ed037a
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@76e4212
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.BasicTypeReference@23121d14
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@23121d14
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.BasicTypeReference@72af90e8
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Currency -> org.hibernate.type.BasicTypeReference@72af90e8
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@72af90e8
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.BasicTypeReference@7faa0680
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@7faa0680
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.BasicTypeReference@4c635edc
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@4c635edc
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.BasicTypeReference@4245bf68
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@4245bf68
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@45bbc52f
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@45bbc52f
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.BasicTypeReference@6a8a551e
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@6a8a551e
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration vector -> org.hibernate.type.BasicTypeReference@3cc9632d
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.BasicTypeReference@53982523
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.JavaObjectType@5d2a86c0
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@5d2a86c0
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration null -> org.hibernate.type.NullType@684ce74c
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@65593327
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@68e5c7ae
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@68bd8ca7
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@6744707b
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@4b28a7bf
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@d36c1c3
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@96abc76
+2024-11-27 23:23:56 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@4d69d288
+2024-11-27 23:23:56 [main] DEBUG o.h.b.internal.BootstrapContextImpl - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@7d25913] into BootstrapContext; was [null]
+2024-11-27 23:23:56 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@7d25913) [was null]
+2024-11-27 23:23:56 [main] DEBUG o.h.b.internal.BootstrapContextImpl - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@5c1b89ac] into BootstrapContext; was [null]
+2024-11-27 23:23:56 [main] DEBUG o.h.b.internal.BootstrapContextImpl - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@40a1b6d4] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@175581eb]
+2024-11-27 23:23:56 [main] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2024-11-27 23:23:56 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 23:23:56 [main] DEBUG o.h.b.internal.BootstrapContextImpl - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@7d25913]
+2024-11-27 23:23:56 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@7d25913]
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://pg-1d5b0237-avinashtiwari2405-7d2d.i.aivencloud.com:28141/defaultdb
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"avnadmin"
+2024-11-27 23:23:56 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-11-27 23:23:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-27 23:23:57 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2976ef56
+2024-11-27 23:23:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-27 23:23:57 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+	   name : PostgreSQL
+	version : 16.4
+	  major : 16
+	  minor : 4
+2024-11-27 23:23:57 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+	   name : PostgreSQL JDBC Driver
+	version : 42.7.2
+	  major : 42
+	  minor : 7
+2024-11-27 23:23:57 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2
+2024-11-27 23:23:57 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-11-27 23:23:57 [main] DEBUG org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: 16.4
+2024-11-27 23:23:57 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2024-11-27 23:23:58 [main] DEBUG org.hibernate.orm.jdbc.lob - HHH10010004: Disabling contextual LOB creation as Dialect reported it is not supported
+2024-11-27 23:23:58 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@76b05c0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@2b974137)
+2024-11-27 23:23:58 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7402c49f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5d22604e)
+2024-11-27 23:23:58 [main] DEBUG o.h.t.d.jdbc.spi.JdbcTypeRegistry - addDescriptor(2004, BlobTypeDescriptor(BLOB_BINDING)) replaced previous registration(BlobTypeDescriptor(DEFAULT))
+2024-11-27 23:23:58 [main] DEBUG o.h.t.d.jdbc.spi.JdbcTypeRegistry - addDescriptor(2005, ClobTypeDescriptor(CLOB_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2024-11-27 23:23:58 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@31a80bc4
+2024-11-27 23:23:58 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration JAVA_OBJECT -> org.hibernate.type.JavaObjectType@6d6f6ca9
