@@ -1,0 +1,156 @@
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.ProdReadyFeaturesApplicationTests - Started ProdReadyFeaturesApplicationTests in 5.181 seconds (process running for 5.977)
+2024-11-25 19:26:07 [main] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2024-11-25 19:26:07 [main] DEBUG o.s.boot.devtools.restart.Restarter - Creating new Restarter for thread Thread[#1,main,5,main]
+2024-11-25 19:26:07 [main] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-11-25 19:26:07 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1, failureCount = 0]
+2024-11-25 19:26:07 [main] DEBUG o.s.t.c.w.ServletTestExecutionListener - Setting up MockHttpServletRequest, MockHttpServletResponse, ServletWebRequest, and RequestContextHolder for test class com.avinash.prod_ready_features.prod_ready_features.ProdReadyFeaturesApplicationTests
+2024-11-25 19:26:07 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test class com.avinash.prod_ready_features.prod_ready_features.ProdReadyFeaturesApplicationTests
+2024-11-25 19:26:07 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1, failureCount = 0]
+2024-11-25 19:26:07 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1, failureCount = 0]
+2024-11-25 19:26:07 [main] DEBUG o.s.t.c.s.DirtiesContextBeforeModesTestExecutionListener - Before test method: class [ProdReadyFeaturesApplicationTests], method [getAllEmployees], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+2024-11-25 19:26:07 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1, failureCount = 0]
+2024-11-25 19:26:07 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1, failureCount = 0]
+2024-11-25 19:26:07 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATAL: remaining connection slots are reserved for roles with the SUPERUSER attribute
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2837)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:317)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-11-25 19:26:07 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATAL: remaining connection slots are reserved for roles with the SUPERUSER attribute
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2837)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:317)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-11-25 19:26:07 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1, failureCount = 0]
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] INFO  c.a.p.p.c.I.EmployeeClientEmpl - trying to fetch user details
+2024-11-25 19:26:07 [main] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-25 19:26:08 [main] DEBUG o.s.web.client.DefaultRestClient - Reading to [com.avinash.prod_ready_features.prod_ready_features.advices.ApiResponse<java.util.List<com.avinash.prod_ready_features.prod_ready_features.dto.EmployeeDto>>]
+2024-11-25 19:26:08 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1, failureCount = 0]
+2024-11-25 19:26:08 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 1, failureCount = 0]
+2024-11-25 19:26:08 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 1, failureCount = 0]
+2024-11-25 19:26:08 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 1, failureCount = 0]
+2024-11-25 19:26:08 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1, failureCount = 0]
+2024-11-25 19:26:08 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1, failureCount = 0]
+2024-11-25 19:26:08 [main] DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener - After test method: class [ProdReadyFeaturesApplicationTests], method [getAllEmployees], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+2024-11-25 19:26:08 [main] DEBUG o.s.t.c.w.ServletTestExecutionListener - Resetting RequestContextHolder for test class com.avinash.prod_ready_features.prod_ready_features.ProdReadyFeaturesApplicationTests
+2024-11-25 19:26:08 [main] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@470fc16c size = 1, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 1, failureCount = 0]
+2024-11-25 19:26:08 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source
+org.postgresql.util.PSQLException: FATAL: remaining connection slots are reserved for roles with the SUPERUSER attribute
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2837)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:317)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-11-25 19:26:08 [main] DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener - After test class: class [ProdReadyFeaturesApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@4ad4936c, started on Mon Nov 25 19:26:02 IST 2024
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase -2147483647
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG o.h.internal.SessionFactoryImpl - HHH000031: Closing
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG o.h.type.spi.TypeConfiguration$Scope - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@47ebedcc] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@34a99d8]
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=6, active=0, idle=6, waiting=0)
+2024-11-25 19:26:08 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@42b43a6: (connection evicted)
+2024-11-25 19:26:08 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@19509841: (connection evicted)
+2024-11-25 19:26:08 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@13a8f331: (connection evicted)
+2024-11-25 19:26:08 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@56aa7f20: (connection evicted)
+2024-11-25 19:26:08 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4b257724: (connection evicted)
+2024-11-25 19:26:08 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@33d3ba4a: (connection evicted)
+2024-11-25 19:26:08 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=0, active=0, idle=0, waiting=0)
+2024-11-25 19:26:08 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=0, active=0, idle=0, waiting=0)
+2024-11-25 19:26:08 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=0, active=0, idle=0, waiting=0)
+2024-11-25 19:26:08 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=0, active=0, idle=0, waiting=0)
+2024-11-25 19:26:08 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=0, active=0, idle=0, waiting=0)
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-11-25 19:26:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
